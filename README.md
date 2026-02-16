@@ -62,6 +62,52 @@ Build Digital Twins. Learn by doing.
 
 ---
 
+## 🐳 Run with Docker
+
+You can run DTwinBot using the published Docker image `industryapps/dtwinbot:latest`.
+
+1. **Create a `.env` file** (or use the provided `.env-example`) with:
+
+```bash
+OPENAI_API_KEY=your-openai-api-key
+TELEGRAM_BOT_TOKEN=your-telegram-bot-token
+```
+
+2. **Run with `docker run`:**
+
+```bash
+docker run -d \
+  --name dtwinbot \
+  --env-file .env \
+  industryapps/dtwinbot:latest
+```
+
+The bot will start and connect to Telegram using the credentials from your `.env` file.
+
+---
+
+## 📦 Docker Compose
+
+You can also manage the bot with Docker Compose. Example `docker-compose.yml`:
+
+```yaml
+version: "3.9"
+services:
+  dtwinbot:
+    image: industryapps/dtwinbot:latest
+    env_file:
+      - .env
+    restart: unless-stopped
+```
+
+Then start it with:
+
+```bash
+docker compose up -d
+```
+
+---
+
 ## ❤️ Built With
 
 - **[Eclipse BaSyx Python SDK](https://github.com/eclipse-basyx/basyx-python-sdk)** – for Asset Administration Shell management  
