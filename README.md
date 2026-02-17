@@ -1,7 +1,10 @@
 
 <p align="center">
-  <img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/10ba926e-3014-404e-b8d4-49af6c0fe433" />
+  <img width="300" height="300" alt="DtwinBot" src="https://github.com/user-attachments/assets/088f630e-bd23-495a-b6e4-6d43e4a671b7" />
 </p>
+
+
+
 
 # 🤖 DTwinBot – Conversational Digital Twin Builder
 
