@@ -1,3 +1,8 @@
+
+<p align="center">
+  <img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/10ba926e-3014-404e-b8d4-49af6c0fe433" />
+</p>
+
 # 🤖 DTwinBot – Conversational Digital Twin Builder
 
 **DTwinBot** is an AI-powered assistant that lets you create and manage **Asset Administration Shells (AAS)** through natural conversation — no coding required.
